@@ -7,11 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        chinese: {
-          darkGreen: '#064e3b',
-          accentGreen: '#059669',
-          yellow: '#facc15',
-          gold: '#eab308'
+        theme: {
+          darkGreen: '#064e3b',   // Emerald 900
+          lightGreen: '#d1fae5',  // Emerald 100
+          jade: '#10b981',        // Emerald 500
+          gold: '#d97706',        // Amber 600
+          lightGold: '#fef3c7',   // Amber 100
+          bgLight: '#fafafa'
         }
       },
       fontFamily: {
