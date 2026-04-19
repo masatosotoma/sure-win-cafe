@@ -27,7 +27,6 @@ export const translations = {
       location: "Location",
       opening: "Opening Hours",
       contact: "Contact",
-      reserve: "Reserve a Table",
       dineIn: "Dine-in • Takeout • Delivery"
     },
     footer: {
@@ -137,7 +136,6 @@ export const translations = {
       location: "地址",
       opening: "營業時間",
       contact: "聯絡方式",
-      reserve: "立即訂座",
       dineIn: "堂食 • 外賣 • 送餐"
     },
     footer: {

@@ -48,17 +48,13 @@ const OpeningHours = () => {
                 <div>
                   <h4 className="font-bold text-theme-darkGreen">{t('hours.contact')}</h4>
                   <p className="text-gray-600 font-medium tracking-wide mt-1">
-                    (416) 555-0198
+                    +1416-293-8068
                   </p>
                 </div>
               </div>
             </div>
             
-            <div className="pt-4">
-               <button className="w-full md:w-auto px-8 py-3 bg-theme-darkGreen hover:bg-theme-jade text-white rounded-lg font-semibold transition-colors duration-300 shadow-md">
-                 {t('hours.reserve')}
-               </button>
-            </div>
+
           </div>
 
           <div className="h-full min-h-[400px] bg-theme-darkGreen rounded-3xl overflow-hidden relative shadow-xl border-4 border-theme-lightGold">
