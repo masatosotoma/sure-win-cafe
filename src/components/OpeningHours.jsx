@@ -25,8 +25,8 @@ const OpeningHours = () => {
                 <div>
                   <h4 className="font-bold text-theme-darkGreen">{t('hours.location')}</h4>
                   <p className="text-gray-600 leading-relaxed mt-1">
-                    123 Chinese Taste Ave,<br />
-                    Scarborough, ON M1V 2A3<br />
+                    3833 Midland Ave Unit 9E,<br />
+                    Scarborough, ON M1V 5L6<br />
                     Canada
                   </p>
                 </div>
