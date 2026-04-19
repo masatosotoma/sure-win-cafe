@@ -4,7 +4,6 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import DigitalMenu from './components/DigitalMenu'
-import Gallery from './components/Gallery'
 import OpeningHours from './components/OpeningHours'
 import Footer from './components/Footer'
 
@@ -16,7 +15,6 @@ function App() {
         <Hero />
         <About />
         <DigitalMenu />
-        <Gallery />
         <OpeningHours />
         <Footer />
       </div>

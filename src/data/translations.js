@@ -3,7 +3,6 @@ export const translations = {
     nav: {
       about: "ABOUT",
       menu: "MENU",
-      gallery: "GALLERY",
       hours: "HOURS",
       switchLang: "中文"
     },
@@ -21,10 +20,6 @@ export const translations = {
     menuSection: {
       title: "Our Menu",
       desc: "Explore our authentic offerings, carefully crafted for your family."
-    },
-    gallery: {
-      title: "Gallery",
-      desc: "A glimpse into our kitchen's finest."
     },
     hours: {
       title: "Visit Us",
@@ -118,7 +113,6 @@ export const translations = {
     nav: {
       about: "關於我們",
       menu: "餐單",
-      gallery: "美食圖庫",
       hours: "營業時間",
       switchLang: "English"
     },
@@ -136,10 +130,6 @@ export const translations = {
     menuSection: {
       title: "招牌餐單",
       desc: "探索我們精心為您準備的正宗佳餚。"
-    },
-    gallery: {
-      title: "美食圖庫",
-      desc: "一瞥我們廚房的精緻出品。"
     },
     hours: {
       title: "聯絡我們",

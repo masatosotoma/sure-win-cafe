@@ -17,7 +17,6 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-8 text-sm font-semibold tracking-wide items-center">
           <a href="#about" className="text-gray-700 hover:text-theme-gold transition-colors">{t('nav.about')}</a>
           <a href="#menu" className="text-gray-700 hover:text-theme-gold transition-colors">{t('nav.menu')}</a>
-          <a href="#gallery" className="text-gray-700 hover:text-theme-gold transition-colors">{t('nav.gallery')}</a>
           <a href="#hours" className="text-gray-700 hover:text-theme-gold transition-colors">{t('nav.hours')}</a>
           <button 
             onClick={toggleLang} 
