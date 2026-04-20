@@ -5,16 +5,8 @@ const Hero = () => {
   const { t } = useLanguage()
 
   return (
-    <div id="home" className="relative h-screen flex items-center justify-center pt-16">
-      <div className="absolute inset-0 z-0">
-        <img 
-          src="/images/hero.png" 
-          alt="Authentic Chinese Food" 
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-theme-darkGreen/50 mix-blend-multiply"></div>
-        <div className="absolute inset-0 bg-black/40"></div>
-      </div>
+    <div id="home" className="relative h-screen flex items-center justify-center pt-16 bg-theme-darkGreen">
+
       
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto space-y-6">
         <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-lg mb-4 font-serif">
