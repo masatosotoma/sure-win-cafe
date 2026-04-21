@@ -34,21 +34,49 @@ export const translations = {
     },
     menu: [
       {
-        category: "Noodle Soup",
-        priceHint: "$9 Tax Included",
+        category: "Beverages",
         items: [
-          { id: "C64", name: "Fish Fillet Noodle Soup" },
-          { id: "C65", name: "Beef & Vegetable Noodle Soup" },
-          { id: "C66", name: "Beef with Satay Noodle Soup" },
-          { id: "C67", name: "Beef with Tomato Noodle Soup" },
-          { id: "C68", name: "Lunch Meat & Egg Noodle Soup" },
-          { id: "C69", name: "Pork & Preserved Veg. Vermicelli Soup" },
-          { id: "C70", name: "Beef Brisket w/Tomato Vermicelli Soup" },
-          { id: "C71", name: "King Mushroom Vermicelli Soup" },
-          { id: "C72", name: "Shanghai Rice Cake Soup" },
-          { id: "C73", name: "Beef & Satay Sauce U-Don Soup" },
-          { id: "C74", name: "Fillet Fish with Tomato Vermicelli Soup" },
-          { id: "C75", name: "Beef Brisket Vermicelli Soup" },
+          { id: "A1", name: "H.K. Style Milk Tea", price: "Hot $2.50 / Cold $3.50" },
+          { id: "A2", name: "Coffee", price: "Hot $2.50 / Cold $3.50" },
+          { id: "A3", name: "Tea & Coffee", price: "Hot $2.50 / Cold $3.50" },
+          { id: "A4", name: "Lemon Tea/Water", price: "Hot $2.50 / Cold $3.50" },
+          { id: "A5", name: "Lemon Honey", price: "Hot $2.50 / Cold $3.50" },
+          { id: "A6", name: "Ovaltine", price: "Hot $2.50 / Cold $3.50" }
+        ]
+      },
+      {
+        category: "Western Rice/Spaghetti",
+        priceHint: "Tax Included",
+        items: [
+          { id: "B1", name: "Baked Pork Chop", price: "$9.50" },
+          { id: "B2", name: "Baked Seafood", price: "$9.50" },
+          { id: "B3", name: "Portuguese Style Black Chicken", price: "$9.50" },
+          { id: "B4", name: "Baked Chicken w/Cream Sauce", price: "$9.50" },
+          { id: "B5", name: "Baked Fish w/Cream Sauce", price: "$9.50" },
+          { id: "B6", name: "Baked Chicken w/Cream Sauce", price: "$9.00" },
+          { id: "B7", name: "Beef w/Tomato Sauce", price: "$9.00" },
+          { id: "B8", name: "Stir Fried Spaghetti w/Black Pepper Sauce", price: "$9.50" },
+          { id: "B9", name: "Seafood Stir Fried Spaghetti w/Curry", price: "$9.50" },
+          { id: "B10", name: "Shrimp, Ham, Mixed Vegetable Fried Rice", price: "$9.00" },
+          { id: "B11", name: "Seafood Fried Rice w/Garlic", price: "$9.50" },
+          { id: "B12", name: "Malaysian Curry Fish", price: "$9.50" },
+          { id: "B13", name: "Baked, Spaghetti, Rice, Bolognese w/Cheese", price: "$9.50" }
+        ]
+      },
+      {
+        category: "Rice Dishes",
+        priceHint: "$8.50 Tax Included",
+        items: [
+          { id: "C1", name: "Yangzhou Fried Rice" },
+          { id: "C2", name: "Beef Fried Rice" },
+          { id: "C3", name: "Chicken Fried Rice" },
+          { id: "C4", name: "BBQ Pork Fried Rice" },
+          { id: "C5", name: "Mixed Vegetable Fried Rice" },
+          { id: "C6", name: "Salty Fish & Chicken Fried Rice" },
+          { id: "C7", name: "Fujian Fried Rice", price: "$10.50" },
+          { id: "C8", name: "Seafood Fried Rice", price: "$10.50" },
+          { id: "C9", name: "Beef & Vegetable on Rice" },
+          { id: "C10", name: "Beef w/ Bitter Melon on Rice" }
         ]
       },
       {
@@ -88,22 +116,21 @@ export const translations = {
         ]
       },
       {
-        category: "Western Rice/Spaghetti",
-        priceHint: "Tax Included",
+        category: "Noodle Soup",
+        priceHint: "$9 Tax Included",
         items: [
-          { id: "B1", name: "Baked Pork Chop", price: "$9.50" },
-          { id: "B2", name: "Baked Seafood", price: "$9.50" },
-          { id: "B3", name: "Portuguese Style Black Chicken", price: "$9.50" },
-          { id: "B4", name: "Baked Chicken w/Cream Sauce", price: "$9.50" },
-          { id: "B5", name: "Baked Fish w/Cream Sauce", price: "$9.50" },
-          { id: "B6", name: "Baked Chick w/Cream Sauce", price: "$9.00" },
-          { id: "B7", name: "Beef w/Tomato Sauce", price: "$9.00" },
-          { id: "B8", name: "Stir Fried Spaghetti w/Black Pepper Sauce", price: "$9.50" },
-          { id: "B9", name: "Seafood Stir Fried Spaghetti w/Curry", price: "$9.50" },
-          { id: "B10", name: "Shrimp, Ham, Mixed Vegetable Fried Rice", price: "$9.00" },
-          { id: "B11", name: "Seafood Fried Rice w/Garlic", price: "$9.50" },
-          { id: "B12", name: "Malaysian Curry Fish", price: "$9.50" },
-          { id: "B13", name: "Baked, Spaghetti, Rice, Bolognese w/Cheese", price: "$9.50" }
+          { id: "C64", name: "Fish Fillet Noodle Soup" },
+          { id: "C65", name: "Beef & Vegetable Noodle Soup" },
+          { id: "C66", name: "Beef with Satay Noodle Soup" },
+          { id: "C67", name: "Beef with Tomato Noodle Soup" },
+          { id: "C68", name: "Lunch Meat & Egg Noodle Soup" },
+          { id: "C69", name: "Pork & Preserved Veg. Vermicelli Soup" },
+          { id: "C70", name: "Beef Brisket w/Tomato Vermicelli Soup" },
+          { id: "C71", name: "King Mushroom Vermicelli Soup" },
+          { id: "C72", name: "Shanghai Rice Cake Soup" },
+          { id: "C73", name: "Beef & Satay Sauce U-Don Soup" },
+          { id: "C74", name: "Fillet Fish with Tomato Vermicelli Soup" },
+          { id: "C75", name: "Beef Brisket Vermicelli Soup" }
         ]
       }
     ]
@@ -143,21 +170,49 @@ export const translations = {
     },
     menu: [
       {
-        category: "湯粉/麵類",
-        priceHint: "$9 包稅",
+        category: "飲品",
         items: [
-          { id: "C64", name: "班球湯粉/麵" },
-          { id: "C65", name: "菜遠牛湯粉/麵" },
-          { id: "C66", name: "沙爹牛湯粉/麵" },
-          { id: "C67", name: "鮮茄牛湯粉/麵" },
-          { id: "C68", name: "餐蛋湯粉/麵" },
-          { id: "C69", name: "雪菜肉絲湯米" },
-          { id: "C70", name: "鮮茄牛腩湯米" },
-          { id: "C71", name: "皇子菇湯米" },
-          { id: "C72", name: "上海湯年糕" },
-          { id: "C73", name: "沙爹牛湯烏冬" },
-          { id: "C74", name: "鮮茄班球湯米" },
-          { id: "C75", name: "菜遠牛腩湯米" },
+          { id: "A1", name: "港式奶茶", price: "熱 $2.50 / 凍 $3.50" },
+          { id: "A2", name: "香濃咖啡", price: "熱 $2.50 / 凍 $3.50" },
+          { id: "A3", name: "香滑鴛鴦", price: "熱 $2.50 / 凍 $3.50" },
+          { id: "A4", name: "檸檬茶/水", price: "熱 $2.50 / 凍 $3.50" },
+          { id: "A5", name: "檸檬蜜", price: "熱 $2.50 / 凍 $3.50" },
+          { id: "A6", name: "阿華田", price: "熱 $2.50 / 凍 $3.50" }
+        ]
+      },
+      {
+        category: "港式西餐",
+        priceHint: "包稅",
+        items: [
+          { id: "B1", name: "招牌焗豬扒飯/意", price: "$9.50" },
+          { id: "B2", name: "焗海鮮飯/意", price: "$9.50" },
+          { id: "B3", name: "焗葡雞飯/意", price: "$9.50" },
+          { id: "B4", name: "焗白汁雞皇飯/意", price: "$9.50" },
+          { id: "B5", name: "焗白汁班球飯/意", price: "$9.50" },
+          { id: "B6", name: "白汁燴雞皇飯/意", price: "$9.00" },
+          { id: "B7", name: "茄汁燴牛肉飯/意", price: "$9.00" },
+          { id: "B8", name: "干炒黑椒牛肉意", price: "$9.50" },
+          { id: "B9", name: "星洲炒意粉(海鮮)", price: "$9.50" },
+          { id: "B10", name: "西炒飯", price: "$9.00" },
+          { id: "B11", name: "蒜香海皇炒飯", price: "$9.50" },
+          { id: "B12", name: "馬拉咖哩班球意", price: "$9.50" },
+          { id: "B13", name: "焗肉醬意粉/飯", price: "$9.50" }
+        ]
+      },
+      {
+        category: "碟頭飯類",
+        priceHint: "$8.50 包稅",
+        items: [
+          { id: "C1", name: "揚州炒飯" },
+          { id: "C2", name: "生炒牛肉飯" },
+          { id: "C3", name: "雞絲炒飯" },
+          { id: "C4", name: "叉燒炒飯" },
+          { id: "C5", name: "雜菜炒飯" },
+          { id: "C6", name: "咸魚雞粒炒飯" },
+          { id: "C7", name: "福建炒飯", price: "$10.50" },
+          { id: "C8", name: "海鮮炒飯", price: "$10.50" },
+          { id: "C9", name: "菜遠牛肉飯" },
+          { id: "C10", name: "涼瓜牛肉飯" }
         ]
       },
       {
@@ -197,22 +252,21 @@ export const translations = {
         ]
       },
       {
-        category: "港式西餐",
-        priceHint: "包稅",
+        category: "湯粉/麵類",
+        priceHint: "$9 包稅",
         items: [
-          { id: "B1", name: "招牌焗豬扒飯/意", price: "$9.50" },
-          { id: "B2", name: "焗海鮮飯/意", price: "$9.50" },
-          { id: "B3", name: "焗葡雞飯/意", price: "$9.50" },
-          { id: "B4", name: "焗白汁雞皇飯/意", price: "$9.50" },
-          { id: "B5", name: "焗白汁班球飯/意", price: "$9.50" },
-          { id: "B6", name: "白汁燴雞皇飯/意", price: "$9.00" },
-          { id: "B7", name: "茄汁燴牛肉飯/意", price: "$9.00" },
-          { id: "B8", name: "干炒黑椒牛肉意", price: "$9.50" },
-          { id: "B9", name: "星洲炒意粉(海鮮)", price: "$9.50" },
-          { id: "B10", name: "西炒飯", price: "$9.00" },
-          { id: "B11", name: "蒜香海皇炒飯", price: "$9.50" },
-          { id: "B12", name: "馬拉咖哩班球意", price: "$9.50" },
-          { id: "B13", name: "焗肉醬意粉", price: "$9.50" }
+          { id: "C64", name: "班球湯粉/麵" },
+          { id: "C65", name: "菜遠牛湯粉/麵" },
+          { id: "C66", name: "沙爹牛湯粉/麵" },
+          { id: "C67", name: "鮮茄牛湯粉/麵" },
+          { id: "C68", name: "餐蛋湯粉/麵" },
+          { id: "C69", name: "雪菜肉絲湯米" },
+          { id: "C70", name: "鮮茄牛腩湯米" },
+          { id: "C71", name: "皇子菇湯米" },
+          { id: "C72", name: "上海湯年糕" },
+          { id: "C73", name: "沙爹牛湯烏冬" },
+          { id: "C74", name: "鮮茄班球湯米" },
+          { id: "C75", name: "菜遠牛腩湯米" }
         ]
       }
     ]
